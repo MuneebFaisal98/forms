@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Staff Information Form</title>
+  <style>
+    </style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+<div class="form-container">
+  <h2>Staff Information</h2>
+  <form>
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone" required>
+    </div>
+
+    <div class="form-group">
+      <label for="department">Department</label>
+      <select id="department" name="department" required>
+        <option value="">Select Department</option>
+        <option value="HR">HR</option>
+        <option value="Finance">Finance</option>
+        <option value="IT">IT</option>
+        <option value="Marketing">Marketing</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="position">Position/Title</label>
+      <input type="text" id="position" name="position" required>
+    </div>
+
+    <div class="form-group">
+      <label for="doj">Date of Joining</label>
+      <input type="date" id="doj" name="doj" required>
+    </div>
+
+    <div class="form-group">
+      <label for="address">Address</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
